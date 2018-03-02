@@ -1,0 +1,43 @@
+{
+    "name": "vscode-icontheme-nomo-dark-macos",
+    "displayName": "Nomo Dark macOS Icon Theme",
+    "description": "Nomo Dark macOS Icon Theme",
+    "version": "1.0.1",
+    "publisher": "Gaulomatic",
+    "author": {
+        "email": "tobiaspunke@googlemail.com",
+        "name": "Tobias Punke",
+        "url": "https://punke.eu"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Gaulomatic/vscode-icontheme-nomo-macos-dark"
+    },
+    "bugs": {
+        "url": "https://github.com/Gaulomatic/vscode-icontheme-nomo-macos-dark/issues"
+    },
+    "keywords": [
+        "icon-theme",
+        "icons",
+        "customization",
+        "theme",
+        "ui"
+    ],
+    "icon": "logo.png",
+    "contributes": {
+        "themes": [
+            {
+                "id": "vscode-icontheme-nomo-dark-macos",
+                "label": "Nomo Dark macOS",
+                "uiTheme": "vs-dark",
+                "path": "icons.json"
+            }
+        ]
+    }
+}
